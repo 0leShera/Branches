@@ -1,0 +1,179 @@
+Last login: Fri Feb  4 12:48:36 on ttys002
+olesyascherbakova@MacBook-Pro-Olesa Push GitHub % fish
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/Push GitHub> git clone https://github.com/0leShera/Branches.git
+Cloning into 'Branches'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/Push GitHub> git branch
+fatal: not a git repository (or any of the parent directories): .git
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/Push GitHub [128]> cd Branches/
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch
+* main
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch SQL
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Postman
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Jmeter
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Bug_Reports
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Check_Lists
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Mobile_Testing
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch Charles
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git branch
+  Bug_Reports
+  Charles
+  Check_Lists
+  Jmeter
+  Mobile_Testing
+  Postman
+  SQL
+* main
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git add .
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git commit -am "Add 7 Branches"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main) [1]> git push
+Everything up-to-date
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin *
+error: src refspec README.md does not match any
+error: failed to push some refs to 'https://github.com/0leShera/Branches.git'
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main) [1]> git push -u origin SQL
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'SQL' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/SQL
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      SQL -> SQL
+Branch 'SQL' set up to track remote branch 'SQL' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Postman
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Postman' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Postman
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Postman -> Postman
+Branch 'Postman' set up to track remote branch 'Postman' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Check_Lists
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Check_Lists' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Check_Lists
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Check_Lists -> Check_Lists
+Branch 'Check_Lists' set up to track remote branch 'Check_Lists' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Charles
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Charles' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Charles
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Charles -> Charles
+Branch 'Charles' set up to track remote branch 'Charles' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Jmeter
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Jmeter' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Jmeter
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Jmeter -> Jmeter
+Branch 'Jmeter' set up to track remote branch 'Jmeter' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Bug_Reports
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Bug_Reports' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Bug_Reports
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Bug_Reports -> Bug_Reports
+Branch 'Bug_Reports' set up to track remote branch 'Bug_Reports' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git push -u origin Mobile_Testing
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Mobile_Testing' on GitHub by visiting:
+remote:      https://github.com/0leShera/Branches/pull/new/Mobile_Testing
+remote: 
+To https://github.com/0leShera/Branches.git
+ * [new branch]      Mobile_Testing -> Mobile_Testing
+Branch 'Mobile_Testing' set up to track remote branch 'Mobile_Testing' from 'origin'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git checkout Bug_Reports
+Switched to branch 'Bug_Reports'
+Your branch is up to date with 'origin/Bug_Reports'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Bug_Reports)> cat > Bug_Report_Structure.txt
+№ Bug Report:          ХХХ
+Summary:         	     Где? Что? Как?
+Project:               Нормер или ссылка
+Severity:	             Определяет тестировщик
+Priority:              Определяет менелдер
+Status:                New - для меня всегда пока new
+Author:                Олеся Щербакова
+Assigned To:           ..
+Environment:           MacOS Big Sur 11.6.3, Google Chrome 97.0.4692.99
+Steps to Reproduce:	     1. 
+                         2. 
+                         3. 
+Result:                Что происходит
+Expected Result:       А как должнл быть
+Attachment:            Ссылка
+^C⏎                                                                             olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Bug_Reports) [SIGINT]> git add .
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Bug_Reports)> git commit -m "Add Bug_Report_Structure.txt"
+[Bug_Reports e8ba655] Add Bug_Report_Structure.txt
+ 1 file changed, 15 insertions(+)
+ create mode 100644 Bug_Report_Structure.txt
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Bug_Reports)> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 702 bytes | 702.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/0leShera/Branches.git
+   5a382cf..e8ba655  Bug_Reports -> Bug_Reports
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Bug_Reports)> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git merge Bug_Reports
+Updating 5a382cf..e8ba655
+Fast-forward
+ Bug_Report_Structure.txt | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 Bug_Report_Structure.txt
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main)> git commit -m "Add Bug_Report_Structure.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (main) [1]> git checkout Check_Lists
+Switched to branch 'Check_Lists'
+Your branch is up to date with 'origin/Check_Lists'.
+olesyascherbakova@MacBook-Pro-Olesa ~/D/Q/P/Branches (Check_Lists)> vim Check_List_Structure.txt
+
+Регистрация:
+Email
+Через соц. сети
+Телефон SMS
+Телефон звонок-сброс
+Валидация полей
+
+Авторизация:
+Пользователь существует
+Пользователь не существует
+Восстановление пароля
+Смена локализации
+Валидация полей
+
+Профиль:
+Смена логина
+Смена имени
+Смена пароля
+Смена email
+Смена фото профиля
+Удаление аккаунта
